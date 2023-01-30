@@ -4,7 +4,7 @@ import {AiFillEnvironment, AiFillRedEnvelope,AiFillPhone,AiFillLinkedin ,AiFillF
 export default function Contact() {
   return (
     <div className='mt-20'>
-    <h2 className='text-3xl font-serif font-bold w-44 border-b-2 border-black mb-16' id='about'>
+    <h2 className='text-3xl font-serif font-bold w-44 border-b-2 border-black mb-16' id='contact'>
     Contact Us
   </h2>
     <section className='grid sm:grid-flow-col sm:grid-cols-2 gap-5 shadow-2xl sm:shadow-none '>

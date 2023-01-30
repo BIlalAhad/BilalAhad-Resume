@@ -48,12 +48,12 @@ export default function Header() {
             </div>
             <div className='flex items-center gap-4'>
                 <AiFillProject className='text-2xl bg-gray-400'/>
-                <HashLink to={"./Portfolio"} className="text-white">Portfolio</HashLink>
+                <HashLink to={"./#portfolio"} className="text-white">Portfolio</HashLink>
             </div>
            
             <div className='flex items-center gap-4'>
                 <AiFillContacts className='text-2xl bg-gray-400'/>
-                <HashLink to={"./#Contact"} className="text-white">Contact</HashLink>
+                <HashLink to={"./#contact"} className="text-white">Contact</HashLink>
             </div>    
         </main>
     </nav>

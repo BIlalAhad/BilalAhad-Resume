@@ -12,10 +12,10 @@ import services from '../Assets/services.png'
 export default function Portfolio() {
   return (
     <div>
-    <h2 className='text-3xl font-serif font-bold w-28 border-b-2 border-black  mb-16 mt-20 mx-auto sm-mx-0' id='about'>
+    <h2 className='text-3xl font-serif font-bold w-28 border-b-2 border-black  mb-16 mt-20 mx-auto sm-mx-0' id='portfolio'>
      Portfolio
      </h2>
-       <section className=' bg-[#ADB1B8] bg-opacity-50  p-5'>
+       <section className=' bg-[#ADB1B8] bg-opacity-50  p-5' >
         <div className='grid sm:grid-flow-col sm:grid-cols-3 gap-5'>
          <div className='grid gap-5  text-center border-4 pb-4'>
             <img className='w-full h-64 object-cover brightness-90' src={uec} alt="" />
@@ -28,7 +28,7 @@ export default function Portfolio() {
          </div>
          <div className='grid gap-5 text-center border-4 pb-4'>
            <img className='w-full h-64 object-cover brightness-90' src={cv} alt="" />
-           <a className='' href=""><button className='hover:opacity-70 py-1 px-8 rounded-3xl bg-[#325178] text-white  pb-4'>Visit</button></a>
+           <a className='' href="https://unrivaled-cranachan-1f2d33.netlify.app"><button className='hover:opacity-70 py-1 px-8 rounded-3xl bg-[#325178] text-white  pb-4'>Visit</button></a>
         </div>
 
         
